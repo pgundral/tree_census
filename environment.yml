@@ -1,13 +1,19 @@
 name: tree_census
 channels:
   - conda-forge
+  - r
+  - defaults
 dependencies:
-  - python=3.10
-  - pip
-  - black
   - flake8
+  - pip
   - isort
-  - pip:
-    - python-dotenv
-    - mkdocs
-    - -e .
+  - python=3.10
+  - black
+  - pandas=2.3.3
+  - scikit-learn=1.7.2
+  - ipykernel
+  - matplotlib=3.10.8
+  - jupyter
+  - py-xgboost=3.1.2
+  - shap=0.48.0
+prefix: /opt/miniconda3/envs/tree_census
