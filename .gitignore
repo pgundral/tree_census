@@ -1,6 +1,9 @@
 # Data
 /data/
 
+# Ignore the pickled model files for now
+/models/
+
 # Mac OS-specific storage files
 .DS_Store
 
