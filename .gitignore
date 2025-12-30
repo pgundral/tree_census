@@ -1,8 +1,8 @@
 # Data
 /data/
 
-# Ignore the pickled model files for now
-/models/
+# Model Files .pkl
+/models/*.pkl
 
 # Mac OS-specific storage files
 .DS_Store
